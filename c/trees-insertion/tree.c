@@ -31,3 +31,10 @@ void inOrderTraversal(struct Node* root) {
         inOrderTraversal(root->right);
     }
 }
+
+int sum(struct Node* root){
+    if (root == NULL){
+        return 0;
+    }
+    return sum(root->left) + root->data + sum(root->right);
+}

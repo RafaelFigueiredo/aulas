@@ -16,3 +16,5 @@ struct Node* insertNode(struct Node* root, int data);
 
 // In-order traversal to print the tree
 void inOrderTraversal(struct Node* root);
+
+int sum(struct Node* root);

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.mako": "html",
+        "linked_list.h": "c"
+    }
+}

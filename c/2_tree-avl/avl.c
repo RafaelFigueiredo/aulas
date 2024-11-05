@@ -13,6 +13,12 @@ int height(struct Node *N)
 // A utility function to get maximum of two integers
 int max(int a, int b)
 {
+    // return (a > b) ? a : b; é o mesmo que:
+    // if(a>b){
+    //     return a;
+    // }else{
+    //     return b;
+    // }
     return (a > b) ? a : b;
 }
 
